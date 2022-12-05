@@ -19,21 +19,20 @@
         <title>Shop</title>
     </head>
     <body>
-        <header class="shop-header">
+        <div class="">
+            <header class="header">
             <div class="logo">
                 <img src="./images/SVG/logo.svg" alt="">
             </div>
-            <div class="nav">
-                <nav>
-                    <ul class="nav-box">
-                        <li><a href="/">Home</a></li>
-                        <li><a href="#">Our Story</a></li>
-                        <li><a href="/shop">Shop</a></li>
-                        <li><a href="#">Testimonial</a></li>
-                        <li><a href="#">FAQ</a></li>
-                        
-                    </ul>
-                </nav>
+            <nav class="nav">
+                <ul class="nav-box">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="#">Our Story</a></li>
+                    <li><a href="/shop.html">Shop</a></li>
+                    <li><a href="#">Testimonial</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    
+                </ul>
                 <ul class="nav-box2">
                     <li><a href="#">
                         <img src="./images/SVG/profile.svg" alt="profile icon">
@@ -42,12 +41,28 @@
                         <img src="./images/SVG/cart.svg" alt="cart icon">
                     </a></li>
                 </ul>
+            </nav>
+            <div class="mobile-nav">
+                <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                    <ul class="mobile-menu">
+                        <li><a href="/">Home</a></li>
+                        <li><a href="#two">Our Story</a></li>
+                        <li><a href="/shop.html">Shop</a></li>
+                        <li><a href="#four">Testimonial</a></li>
+                        <li><a href="#five">FAQ</a></li>
+                    </ul>
+                </div>
             </div>
-            
-            <div class="banner-text">
-                <h2>Our bamboo products</h2>
+            </header>
+
+            <div class="shop-header">
+                <h1>Our bamboo products</h1>
             </div>
-        </header>
+            <div class="devider"></div>
+        </div>
         <main>
             
             <section class="production-cards-section">
@@ -386,7 +401,7 @@
                         />
                     </div>
                     <div class="how-to-step-text">
-                        <h3>STEP 1</h3>
+                        <h4>STEP 1</h4>
                         <p>
                             We advise people to boil their bamboo straws in a little
                             salt and vinegar before using them for the first time.
@@ -404,7 +419,7 @@
                         />
                     </div>
                     <div class="how-to-step-text">
-                        <h3>STEP 2</h3>
+                        <h4>STEP 2</h4>
                         <p>
                             After each use, rinse your plant based drinking straws
                             under the tap and every so often clean the inside using
@@ -424,7 +439,7 @@
                         />
                     </div>
                     <div class="how-to-step-text">
-                        <h3>STEP 3</h3>
+                        <h4>STEP 3</h4>
                         <p>
                             Always allow your bamboo straws to dry fully but fear
                             not; they dry very quickly! Store your straws in a
@@ -442,7 +457,7 @@
                         />
                     </div>
                     <div class="how-to-step-text">
-                        <h3>STEP 4</h3>
+                        <h4>STEP 4</h4>
                         <p>
                             Aside from keeping your BStraw dry, keep them
                             well-ventilated as well. Our natural hessian pouches are
@@ -482,5 +497,7 @@
                 </ul>
             </div>
         </footer>
+        <script src="scripts/main.js"></script>
+
     </body>
 </html>
