@@ -12,21 +12,19 @@
     <title>BStraw</title>
 </head>
 <body>
-    <header>
+    <header class="header">
         <div class="logo">
             <img src="./images/SVG/logo.svg" alt="">
         </div>
-        <div class="nav">
-            <nav>
-                <ul class="nav-box">
-                    <li><a href="/">Home</a></li>
-                    <li><a href="#">Our Story</a></li>
-                    <li><a href="/shop.html">Shop</a></li>
-                    <li><a href="#">Testimonial</a></li>
-                    <li><a href="#">FAQ</a></li>
-                    
-                </ul>
-            </nav>
+        <nav class="nav">
+            <ul class="nav-box">
+                <li><a href="/">Home</a></li>
+                <li><a href="#">Our Story</a></li>
+                <li><a href="/shop.html">Shop</a></li>
+                <li><a href="#">Testimonial</a></li>
+                <li><a href="#">FAQ</a></li>
+                
+            </ul>
             <ul class="nav-box2">
                 <li><a href="#">
                     <img src="./images/SVG/profile.svg" alt="profile icon">
@@ -35,12 +33,26 @@
                     <img src="./images/SVG/cart.svg" alt="cart icon">
                 </a></li>
             </ul>
+        </nav>
+        <div class="mobile-nav">
+            <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+                <ul class="mobile-menu">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="#two">Our Story</a></li>
+                    <li><a href="/shop.html">Shop</a></li>
+                    <li><a href="#four">Testimonial</a></li>
+                    <li><a href="#five">FAQ</a></li>
+                </ul>
+            </div>
         </div>
     </header>
     <main class="body">
-        <div class="banner"></div>
-        <div id="intro" class="intro row">
-            <div class="intro-text">
+        <div class="banner">
+            <img class="banner-img" src="./images/banner.png" alt="">
+            <div class="banner-content">
                 <div class="title">
                     <h1>Natural Bamboo Straw for a <span style="color:#58C835">GREEN</span> future</h1>
                 </div>
@@ -56,7 +68,7 @@
             
         </div>
 
-        <div id="our-story" class="sec-2">
+        <div class="our-story-section">
             <h2>Our Story</h2>
             <p>BStraw is a socially responsible company who manufacture and supply SGS certified, food safe bamboo straws and eco-friendly products that promote sustainable living. Since our inception, our purpose has been to support, educate, and inspire individuals and businesses of all kinds to make the switch to reusable and zero waste alternatives in order to reduce the devastating effects that single-use plastic pollu tion is having on our planet.</p>
             <p> Our reusable bamboo straws and earth-friendly products can also be customised. They are not only beautiful, but they are responsibly cultivated and crafted with pride. Plastic waste is a large global epidemic that threatens to change our world for good. We, as citizens of that world need to act now.</p>
@@ -64,47 +76,50 @@
             <p>"Be good, be conscious. We are BStraw."</p>
         </div>
 
-        <div class="sec-3 row">
+        <!-- <div class="sec-3 row"> -->
+        <div class="our-values-section">
             <div>
-                <h3>Our Values</h3>
+                <h4>Our Values</h4>
                 <p>We proudly challenge modern production techniques that place too much emphasis on profit at the expense of people and our environment. Our values in eco-sustainability are not just about how cheaply a product can be manufactured.</p>
             </div>
 
             <div>
-                <h3>Our Workshops</h3>
+                <h4>Our Workshops</h4>
                 <p>Our farms and workshops use sustainable bamboo and natural materials, grown responsibly in Vietnam. Our bamboo is cultivated organically, without the need for any harmful fertilisers or pesticides.</p>
             </div>
 
             <div>
-                <h3>Why Bamboo?</h3>
+                <h4>Why Bamboo?</h4>
                 <p>We absolutely love bamboo! Not only does it look and feel great, but it is 100% sustainable, fully biodegradable, and can be harvested in as little as 3-5 years.</p>
             </div>  
         </div>
 
-        <div class="sec-4">
+        <!-- <div class="sec-4"> -->
+        <div class="straw-section">
             <div>
                 <h3>Our resuable bamboo straws</h3>
             </div>
-            <div class="row">
+            <div class="straw-content straw-top-content">
                 <img src="./images/sec4-img1.png" alt="bamboo jungle">
-                <div class="column">
+                <div>
                     <p>Bamboo straws are fully biodegradable and 100% organic. They are grown and handcrafted in Vietnam.</p>
+                    <br>
                     <p>Our bamboo straws use the entire bamboo stalk and we ensure that there is zero waste.  BStraws have mixed diameters due to the naturally varying thickness of the plant, making them absolutely perfect for a wide variety of different drinks.</p>
                 </div>
             </div>
-            <div class="row">
-                <p style="text-align: right;">What&#8217;s the point of a reusable drinking straw if you are unable to easily carry it with you? When you buy our bamboo straws, we ship them neatly packaged in eco&#45;friendly, natural hessian storage bags and matching straw sleeves, designed to help people think responsibly and to promote the use of their reusable bamboo straws each and every day!</p>
-                <div class="sec-4-img2">
-                    <img src="./images/sec4-img2.png" alt="reusable straws">
-                </div>
+            <div class="straw-content straw-bottom-content">
+                <p>What&#8217;s the point of a reusable drinking straw if you are unable to easily carry it with you? When you buy our bamboo straws, we ship them neatly packaged in eco&#45;friendly, natural hessian storage bags and matching straw sleeves, designed to help people think responsibly and to promote the use of their reusable bamboo straws each and every day!</p>
+                <img src="./images/sec4-img2.png" alt="reusable straws">
+                
             </div>
         </div>
 
-        <div class="sec-5">
-            <div class="text-box center">
+        <!-- <div class="sec-5"> -->
+        <div class="best-seller-section">
+            <div class="best-seller-header">
                 <h3>Our best&#45;seller</h3>
             </div>
-            <div class="row">
+            <div class="best-seller-cards">
                 <div class="production-card">
                     <div class="card-top">
                         <img src="./images/prod1.png" alt="Set of 6 straws + 1 cleansing brush" />
@@ -256,43 +271,44 @@
                     </div>
                 </div>
             </div>
-            <div class="center">
+            <div class="best-seller-cta">
                 <p>There are a lot more options that suits all of your needs. Check out our full collection now!</p>
                 <button class="btn">Shop Now</button>
             </div>
         </div>
 
-        <div id="testimonial" class="sec-6 center">
-            <div class="text-box">
+        <!-- <div class="sec-6 center"> -->
+        <div class="testimonials-section">
+            <div class="testimonials-header round-header">
                 <h3>Testimonials</h3>
             </div>
 
-            <div class="row">
+            <div class="testimonies">
                 <div class="testimony">
-                    <img src="./images/test1.png" alt="Testimonial 1">
-                    <h6>GEMMA TOWLE &#124; TODMORDEN</h5>
+                    <img src="./images/test1.png" alt="Testimonial 1" height="170" width="170">
+                    <h4>GEMMA TOWLE &#124; TODMORDEN</h5>
                     <p>&ldquo;They look amazing and are a real talking point when you get them out.&rdquo;</p>
                 </div>
 
                 <div class="testimony">
-                    <img src="./images/test2.png" alt="Testimonial 2">
-                    <h6>SANDRA WILKINS &#124; VANCOUVER</h5>
+                    <img src="./images/test2.png" alt="Testimonial 2" height="170" width="170">
+                    <h4>SANDRA WILKINS &#124; VANCOUVER</h5>
                     <p>&ldquo;My reusable boba straw looks great! I love the pouches that come included with the coconut bowl sets too!&rdquo;</p>
                 </div>
 
                 <div class="testimony">
-                    <img src="./images/test3.png" alt="Testimonial 3">
-                    <h6>MOLLY &#124; LONDON</h5>
+                    <img src="./images/test3.png" alt="Testimonial 3" height="170" width="170">
+                    <h4>MOLLY &#124; LONDON</h5>
                     <p>&ldquo;Absolutely wonderful plant based straws, my wife has trouble with his hands, so wanted to help save the planet by using these straws&rdquo;</p>
                 </div>
             </div>
 
-            <div class="sub-sec-6">
+            <div class="testmony-cta">
                 <h5>JOIN THE PLASTIC-FREE REVOLUTION & RECEIVE A FREE E-BOOK!</h5>
                 <p>Sign up to our newsletter and receive a free zero waste e-book!</p>
                 <div>
                     <form>
-                        <div class="row">
+                        <div class="testimony-inputs">
                             <div>
                                 <input type="text" placeholder="First Name">
                             </div>
@@ -341,5 +357,6 @@
             </ul>
         </div>
     </footer>
+    <script src="scripts/main.js"></script>
 </body>
 </html>
