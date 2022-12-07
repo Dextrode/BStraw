@@ -1,0 +1,442 @@
+body {
+    font-family: Inter, sans-serif;
+    margin: 0;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Inika, serif;
+    color: #58c835;
+}
+
+h1 {
+    font-family: Inika, serif;
+}
+
+a {
+    text-decoration: none;
+    font-weight: 600;
+    margin: 20px;
+    font-size: 20px;
+    color: #000;
+}
+
+ul {
+    list-style: none;
+    display: block;
+}
+
+.nav-box {
+    border-radius: 50px;
+    background-color: #ddcdb9;
+    position: absolute;
+    text-align: center;
+    padding: 10px 30px;
+    left: 37%;
+    top: 70px;
+}
+.nav-box2 {
+    border-radius: 50px;
+    background-color: #ddcdb9;
+    position: absolute;
+    text-align: center;
+    padding: 10px 6px;
+    left: 85%;
+    top: 70px;
+    width: 121px;
+}
+.nav-box2 li {
+    width: 10px;
+}
+.nav li {
+    display: inline;
+}
+.nav-box a:hover {
+    color: #58c835;
+}
+.nav-box a:active {
+    color: #58c835;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+    margin: 57px 104px 38px 104px;
+    gap: 90px;
+    justify-content: center;
+}
+.column {
+    display: flex;
+    flex-direction: column;
+}
+.text-box {
+    margin: auto;
+    border-radius: 25px;
+    width: 465px;
+    text-align: center;
+}
+.center {
+    text-align: center;
+}
+.sub-sec-6 input {
+    width: 260px;
+    height: 70px;
+}
+.logo {
+    left: 30px;
+    position: absolute;
+    top: 0;
+}
+.banner {
+    background: url(https://bstraw.gregoryosborne.ca/images/banner.png) right
+        top no-repeat;
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 700px;
+    width: 750px;
+    z-index: -1;
+}
+.intro {
+    width: 37%;
+}
+.intro-text {
+    margin-top: 175px;
+    margin-right: 50;
+}
+.overview {
+    position: relative;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+}
+.title {
+    font-weight: 700;
+    font-size: 27px;
+}
+.btn-box {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+.btn {
+    border-radius: 50px;
+    padding: 10px 20px;
+    border: solid #58c835;
+    text-align: center;
+    font-size: 16px;
+    background-color: #fff;
+}
+.btn:hover {
+    background-color: #58c835;
+    color: #fff;
+}
+.btn:active {
+    background-color: #58c835;
+    color: #fff;
+}
+button {
+    text-decoration: none;
+    font-weight: 600;
+    margin: 30px;
+    font-size: 20px;
+    color: #000;
+}
+.sec-2 {
+    background-image: url(https://bstraw.gregoryosborne.ca/images/ourstory.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    top: 569px;
+    border-radius: 25px;
+    text-align: center;
+    color: #fff;
+    margin: 100px;
+    padding: 50px 139px;
+}
+.our-story h2 {
+    margin-bottom: 10px;
+}
+.sec-2 h2 {
+    font-weight: 400;
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+.sec-2 p {
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 27px;
+    margin-bottom: 20px;
+}
+.sec-3 {
+    text-align: center;
+}
+.sec-3 p {
+    font-size: 22px;
+    font-weight: 500;
+}
+.sec-3 h3 {
+    font-family: Inika, serif;
+    font-size: 30px;
+}
+.sec-4 {
+    background-color: #ddcdb9;
+    padding-bottom: 50px;
+}
+.sec-4 h3 {
+    font-weight: 400;
+    font-size: 48px;
+    margin-left: 104px;
+    padding-top: 60px;
+}
+.sec-4 p {
+    font-size: 22px;
+    line-height: 27px;
+    font-weight: 500;
+}
+.sec-5 {
+    margin-top: 70px;
+}
+.sec-5 h3 {
+    font-size: 48px;
+    font-weight: 400;
+}
+.sec-5 .text-box {
+    background-color: #ddcdb9;
+}
+.sec-6 {
+    background-color: #ddcdb9;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.sec-6 .text-box {
+    background-color: #58c835;
+}
+.testimony {
+    width: 28%;
+}
+.sec-6 h3 {
+    color: #fff;
+    font-size: 48px;
+    font-weight: 400;
+}
+.sec-6 h6 {
+    font-size: 20px;
+    font-weight: 700;
+}
+.sec-6 p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+}
+.sub-sec-6 {
+    background-image: url(https://bstraw.gregoryosborne.ca/images/sub-sec-6-background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 25px;
+    text-align: center;
+    color: #fff;
+    padding: 79px 77px 61px 77px;
+    margin: 120px 142px 146px 142px;
+}
+.sub-sec-6 h5 {
+    color: #fff;
+    font-weight: 700;
+    font-size: 30px;
+}
+.sub-sec-6 p {
+    font-size: 22px;
+}
+input {
+    width: 325px;
+    height: 50px;
+    border-radius: 15px;
+    border-color: #b7b7b7;
+    color: #b7b7b7;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+.shop-header {
+    background-image: url(https://bstraw.gregoryosborne.ca/images/Completed-straws.jpeg);
+    background-size: cover;
+    height: 693px;
+    width: 100%;
+}
+.banner-text {
+    display: flex;
+    justify-content: center;
+    padding-top: 320px;
+    font-family: Inika;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 63px;
+    text-align: center;
+}
+.production-card {
+    width: 370px;
+    height: 500px;
+    border-radius: 25px;
+    overflow: hidden;
+    background-image: url(https://bstraw.gregoryosborne.ca/images/product-1.jpeg);
+    background-size: cover;
+}
+.card-bottom {
+    background-color: #ddcdb9;
+    height: 164px;
+    display: flex;
+    font-family: Inter, sans-serif;
+}
+.card-top {
+    height: 336px;
+    width: 100%;
+}
+.card-top img {
+    width: 400px;
+}
+.card-content {
+    padding: 21px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 89%;
+    background-color: #ddcdb9;
+}
+.card-text {
+    display: flex;
+}
+.card-desc {
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 3px;
+}
+.card-price {
+    font-size: 22px;
+    font-weight: 500;
+    color: #46a02a;
+}
+.card-text-left {
+    width: 251px;
+}
+.card-title {
+    font-size: 22px;
+    font-weight: 500;
+    font-family: Inter, sans-serif;
+}
+.card-buttons {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+}
+.card-heart-button {
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card-cart-button {
+    height: 45px;
+    width: 196px;
+    border-radius: 50px;
+    background-color: #46a02a;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-weight: 600;
+    padding: 0 20px;
+}
+.heart-button-img {
+    width: 27px;
+    height: 27px;
+}
+.heart-button-img:active {
+    fill: #46a02a;
+}
+.how-to-content {
+    color: #fff;
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.how-to-title {
+    width: 1000px;
+    height: 90px;
+    background-color: #46a02a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 25px;
+    font-family: Inika;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 38px;
+}
+.how-to-title h2 {
+    color: #fff;
+}
+.how-to-text {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 27px;
+    margin-top: 30px;
+}
+.footer {
+    background-color: #282e3a;
+    height: 150px;
+    display: flex;
+    padding: 20px 30px;
+    font-family: Inter;
+    font-style: normal;
+}
+.footer-nav {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 24px;
+    text-align: center;
+    margin-left: 65px;
+    margin-top: 43px;
+}
+.footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ddcdb9;
+}
+.footer-nav a {
+    margin-right: 30px;
+    text-decoration: none;
+    color: #ddcdb9;
+    list-style: none;
+}
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    width: 320px;
+    font-weight: 400;
+}
+.footer-links a {
+    list-style: none;
+    color: #ddcdb9;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
